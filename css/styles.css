@@ -1,0 +1,37 @@
+.logo-image {
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+.navbar-collapse:before {
+  content: "";
+  display: block;
+  width: 25vw;
+  height: 5px;
+  background: #000;
+  left: 10vw;
+  top: 50%;
+  position: absolute;
+}
+.navbar-collapse:after {
+  content: "";
+  display: block;
+  width: 25vw;
+  height: 5px;
+  background: #000;
+  right: 10vw;
+  top: 50%;
+  position: absolute;
+}
